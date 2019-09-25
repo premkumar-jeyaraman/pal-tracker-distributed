@@ -8,7 +8,7 @@ jobs:
     general:
       branches:
         only:
-          - my-work # list of branches to build
+          - PAL1-work # list of branches to build
     steps:
       - checkout
       - run:
